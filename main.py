@@ -23,9 +23,9 @@ def fact(message):
     bot.reply_to(message, f'Лови факт о воде: {random_fact}')
 
 def send_reminders(chat_id):
-    first_rem = "14:45"
-    second_rem = "14:47"
-    third_rem = "14:50"
+    first_rem = "20:30"
+    second_rem = "21:00"
+    third_rem = "21:30"
     while True:
         now = datetime.datetime.now().strftime("%H:%M")
         if now == first_rem or now == second_rem or now == third_rem:
